@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soy Tu Fan – El Concurso de Canto en Colombia y Ecuador</title>
+  <meta name="description" content="Regístrate, agenda tu casting y demuestra tu talento en Soy Tu Fan, el concurso de canto presencial. Tu voz, tu momento, tu escenario." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#" class="logo" data-go="0"><img src="img/Logo_STF.png" alt="Soy Tu Fan" /></a>
+  <nav class="menu" id="menu">
+    <a href="#" data-go="0" class="active">Inicio</a>
+    <a href="#" data-go="1">Cómo participar</a>
+    <a href="#" data-go="2">Etapas</a>
+    <a href="#" data-go="3">Evaluación</a>
+    <a href="#" data-go="4">Premios</a>
+    <a href="#" data-go="5">Participa</a>
+    <a href="#faq">Preguntas</a>
+  </nav>
+  <button class="grid-btn" id="menuBtn" aria-label="Abrir menú">
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor"><circle cx="3" cy="3" r="1.6"/><circle cx="11" cy="3" r="1.6"/><circle cx="19" cy="3" r="1.6"/><circle cx="3" cy="11" r="1.6"/><circle cx="11" cy="11" r="1.6"/><circle cx="19" cy="11" r="1.6"/><circle cx="3" cy="19" r="1.6"/><circle cx="11" cy="19" r="1.6"/><circle cx="19" cy="19" r="1.6"/></svg>
+  </button>
+</header>
+
+<main class="stage" id="stage" data-slide="0">
+  <svg class="ring" viewBox="0 2 100 100" aria-hidden="true">
+    <polygon points="50,6 61.76,35.82 93.75,37.79 69.02,58.18 77.04,89.21 50,72 22.96,89.21 30.98,58.18 6.25,37.79 38.24,35.82">
+      <animateTransform attributeName="transform" type="rotate" from="0 50 52" to="360 50 52" dur="85s" repeatCount="indefinite"/>
+    </polygon>
+  </svg>
+  
+  <div class="notes" aria-hidden="true"><span>♪</span><span>♫</span><span>♩</span><span>♬</span></div>
+  
+  <div class="mic">
+    <div class="mic-tilt" id="micTilt">
+      <img class="pose on" src="img/cantante-1.webp" alt="Cantante con micrófono dorado" />
+      <img class="pose" src="img/cantante-2.webp" alt="Cantante con una mano en alto" />
+      <img class="pose" src="img/cantante-3.webp" alt="Dúo en batalla de voces" />
+      <img class="pose" src="img/cantante-4.webp" alt="Cantante interpretando con emoción" />
+      <img class="pose" src="img/microfono-1.png" alt="Micrófono dorado" />
+      <img class="pose pose-logo" src="img/logo-participa.png" alt="Soy Tu Fan" />
+    </div>
+  </div>
+
+  <div class="progress" id="progress"></div>
+
+  <!-- 0 · INICIO -->
+  <section class="slide active">
+    <span class="tag rv">Presentes en Colombia · Ecuador</span>
+    <h1 class="rv">Tu voz,<br />tu momento,<br />tu escenario</h1>
+    <p class="rv">Soy Tu Fan es el concurso de canto donde tu talento se enfrenta al público. Del casting a la gran gala, este es tu momento de brillar.</p>
+    <div class="actions rv">
+      <a class="btn btn-o" href="https://walink.co/qp7tw4" target="_blank" rel="noopener">Participar en Cuenca</a>
+      <a class="btn btn-o" href="https://walink.co/d8um7z" target="_blank" rel="noopener">Participar en Guayaquil</a>
+    </div>
+  </section>
+
+  <!-- 1 · CÓMO PARTICIPAR -->
+  <section class="slide bajar">
+    <h2 class="rv">Cómo participar</h2>
+    <ul class="items">
+      <li class="rv"><b>01 · Regístrate</b><span>Completa tu inscripción y elige tu ciudad.</span></li>
+      <li class="rv"><b>02 · Agenda tu casting</b><span>Escoge un horario y recibe tu confirmación.</span></li>
+      <li class="rv"><b>03 · Demuestra tu talento</b><span>Muestra tu voz, personalidad e interpretación.</span></li>
+      <li class="rv"><b>04 · Vive la competencia</b><span>Si eres seleccionado, avanzas a las siguientes etapas.</span></li>
+      <li class="rv"><b>05 · Llega a la gran gala</b><span>Compite por ser protagonista de Soy Tu Fan.</span></li>
+    </ul>
+  </section>
+
+  <!-- 2 · ETAPAS -->
+  <section class="slide bajar">
+    <h2 class="rv">Cada etapa te acerca a tu gran momento</h2>
+    <ul class="items">
+      <li class="rv"><b>Casting</b><span>Tu primer encuentro con nuestro equipo.</span></li>
+      <li class="rv"><b>Fases de competencia</b><span>Retos musicales para mostrar tu evolución y presencia escénica.</span></li>
+      <li class="rv"><b>Batalla de voces</b><span>Talento, preparación y conexión musical frente a frente.</span></li>
+      <li class="rv"><b>Gala final</b><span>Una jornada de música, emoción y reconocimiento.</span></li>
+    </ul>
+    <small class="rv note">Las etapas y dinámicas pueden variar según la edición y la ciudad.</small>
+  </section>
+
+  <!-- 3 · EVALUACIÓN -->
+  <section class="slide bajar">
+    <h2 class="rv">No se trata solo de tener buena voz</h2>
+    <ul class="items">
+      <li class="rv"><b>Calidad vocal</b><span>Afinación, respiración, técnica y control.</span></li>
+      <li class="rv"><b>Interpretación</b><span>Transmitir emociones y dar identidad a cada canción.</span></li>
+      <li class="rv"><b>Presencia escénica</b><span>Seguridad, actitud y dominio del escenario.</span></li>
+      <li class="rv"><b>Expresión artística</b><span>Conexión con la música y con el público.</span></li>
+      <li class="rv"><b>Evolución y desempeño</b><span>Tu crecimiento durante la competencia.</span></li>
+    </ul>
+  </section>
+
+  <!-- 4 · PREMIOS -->
+  <section class="slide">
+    <h2 class="rv">Tu talento merece ser reconocido</h2>
+    <p class="rv">En Soy Tu Fan celebramos el esfuerzo y la dedicación de cada participante.</p>
+    <ul class="items">
+      <li class="rv"><b>Tres lugares premiados</b><span>Premiamos al primer, segundo y tercer lugar de cada edición.</span></li>
+      <li class="rv"><b>Los más destacados compiten</b><span>Los talentos que más sobresalen tienen la oportunidad de competir por premios y reconocimientos especiales.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5 · PARTICIPA -->
+  <section class="slide center">
+    <h2 class="rv">¡No te quedes con las ganas de cantar!</h2>
+    <p class="rv">Las oportunidades comienzan cuando decides atreverte. Elige tu canción y demuestra todo lo que tienes. ¡Tu voz puede ser la próxima en hacerse escuchar!</p>
+    <div class="actions rv">
+      <a class="btn btn-y" href="https://walink.co/cah88g" target="_blank" rel="noopener">Quiero agendar mi casting</a>
+    </div>
+    <a class="down rv" href="#faq">Ver preguntas frecuentes ↓</a>
+  </section>
+</main>
+
+<!-- PREGUNTAS + FOOTER -->
+<section class="more" id="faq">
+  <div class="faq">
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Quiénes pueden participar?</summary><p>Personas apasionadas por el canto que cumplan los requisitos de edad y participación de cada convocatoria.</p></details>
+    <details><summary>¿Necesito ser cantante profesional?</summary><p>No. Lo importante es tu pasión por la música y las ganas de demostrar tu talento.</p></details>
+    <details><summary>¿Cómo puedo participar?</summary><p>Completa tu registro, elige tu ciudad y agenda tu casting según la disponibilidad.</p></details>
+    <details><summary>¿Dónde se realizan los castings?</summary><p>En las ciudades habilitadas para cada edición. Consulta la convocatoria de Colombia o Ecuador.</p></details>
+    <details><summary>¿El concurso tiene algún costo?</summary><p>Las condiciones económicas y valores de participación se informan en cada convocatoria.</p></details>
+    <details><summary>¿Qué pasa si me seleccionan en el casting?</summary><p>Recibirás las indicaciones para continuar en las siguientes etapas.</p></details>
+    <details><summary>¿Hay premios para los ganadores?</summary><p>Sí. Cada edición cuenta con premios y reconocimientos según sus condiciones particulares.</p></details>
+    <details><summary>¿Puedo participar si soy menor de edad?</summary><p>Sí, sujeto a los requisitos y autorizaciones de cada convocatoria.</p></details>
+  </div>
+
+  <footer class="footer">
+    <div class="brand">
+      <a href="#" class="logo" data-go="0"><img src="img/Logo_STF.png" alt="Soy Tu Fan – El Concurso" /></a>
+      <div>
+        <p>Una experiencia musical que celebra el talento y la pasión por el canto.</p>
+        <p>Colombia | Ecuador</p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h3>Encuéntranos y contáctanos</h3>
+
+      <a class="row" href="https://instagram.com/elconcurso.soytufan" target="_blank" rel="noopener" aria-label="Instagram de Soy Tu Fan">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+        <span>@elconcurso.soytufan</span>
+      </a>
+
+      <a class="row" href="https://walink.co/cah88g" target="_blank" rel="noopener" aria-label="WhatsApp de Soy Tu Fan">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        <span>+593 99 584 9294</span>
+      </a>
+    </div>
+
+    <p class="copy">© <span id="year"></span> Soy Tu Fan – El Concurso. Todos los derechos reservados.</p>
+  </footer>
+</section>
+
+<!-- Icono de WhatsApp (se define una vez y se reutiliza) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </symbol>
+</svg>
+
+<!-- Botón flotante -->
+<button class="wa-float" id="waOpen" aria-label="Inscríbete por WhatsApp" aria-haspopup="dialog">
+  <svg><use href="#i-wa"/></svg>
+</button>
+
+<!-- Cuadro de contacto -->
+<div class="wa-modal" id="waModal" role="dialog" aria-modal="true" aria-labelledby="waTitle">
+  <div class="wa-card">
+    <button class="wa-close" id="waClose" aria-label="Cerrar">✕</button>
+    <h3 id="waTitle">Inscríbete a tu casting por WhatsApp</h3>
+    <p>Elige la ciudad donde deseas participar.</p>
+
+    <a class="wa-item" href="https://walink.co/qp7tw4" target="_blank" rel="noopener">
+      <span class="wa-ico"><svg><use href="#i-wa"/></svg></span>
+      <span><b>Casting en Cuenca</b><small>Escríbenos para inscribirte</small></span>
+    </a>
+    <a class="wa-item" href="https://walink.co/d8um7z" target="_blank" rel="noopener">
+      <span class="wa-ico"><svg><use href="#i-wa"/></svg></span>
+      <span><b>Casting en Guayaquil</b><small>Escríbenos para inscribirte</small></span>
+    </a>
+  </div>
+</div>
+
+<script src="js/funciones.js"></script>
+</body>
+</html>
